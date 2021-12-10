@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <header className="w-full bg-black h-20 z-20 flex justify-center">
-      <div className="max-w-[1680px] flex w-full justify-between">
+      <div className="max-w-[1680px] flex w-full justify-center">
         <img src="/brand/logo.svg" alt="React Logo" className="ml-5" />
         {/* <div
           className="flex justify-center w-full items-center"
@@ -29,11 +29,11 @@ export const Header = () => {
             </ul>
           </nav>
         </div> */}
-        <div className="h-full flex items-center">
+        {/* <div className="h-full flex items-center">
           <Link href="/menu">
             <a className="text-white text-base mr-5">Menú</a>
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );

@@ -102,7 +102,7 @@ const menuData = [
 const Menu: NextPage = () => {
   return (
     <MainContainer>
-      <div className="bg-[#040404] w-full flex items-center flex-col pt-32">
+      <div className="bg-[#040404] w-full flex items-center flex-col pt-32 px-5">
         <Image
           src="/image/phrase-menu.png"
           width="215"
@@ -113,7 +113,7 @@ const Menu: NextPage = () => {
         <div className="mb-14">
           <Title isSmall>Nuestro menú</Title>
         </div>
-        <div className="flex flex-wrap max-w-3xl w-full justify-between">
+        <div className="flex flex-wrap max-w-3xl w-full justify-center gap-20">
           {menuData.map((elem, index) => (
             <MenuSection key={index} {...elem} />
           ))}
