@@ -17,8 +17,8 @@ export const MenuSection: React.FC<MenuSectionProps> = ({
         {sectionTitle}
       </h2>
       <ul>
-        {food.map((elem) => (
-          <li className="mb-5">
+        {food.map((elem, index) => (
+          <li key={`${elem.name}-${index}`} className="mb-5">
             <div className="flex justify-between mb-2">
               <h3 className="text-base text-primary font-bold uppercase">
                 {elem.name}

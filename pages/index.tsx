@@ -114,8 +114,8 @@ const Menu: NextPage = () => {
           <Title isSmall>Nuestro menú</Title>
         </div>
         <div className="flex flex-wrap max-w-3xl w-full justify-between">
-          {menuData.map((elem) => (
-            <MenuSection {...elem} />
+          {menuData.map((elem, index) => (
+            <MenuSection key={index} {...elem} />
           ))}
         </div>
       </div>
