@@ -49,6 +49,17 @@ const menuData = [
       },
     ],
   },
+  {
+    sectionTitle: "Pizzas",
+    food: [
+      {
+        name: "Pizza de la casa",
+        description:
+          "Salsa roja de la casa, Pepperoni, tocineta, salchichon y jamon ahumado",
+        price: 13,
+      },
+    ],
+  },
   // {
   //   sectionTitle: "Hot dogs",
   //   food: [
