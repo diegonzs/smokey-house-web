@@ -60,6 +60,27 @@ const menuData = [
       },
     ],
   },
+  {
+    sectionTitle: "Combos",
+    food: [
+      {
+        name: "Combo cervecero",
+        description: "5 hamburguesas mas balde de 10 cervezas",
+        price: 13,
+      },
+    ],
+  },
+  // {
+  //   sectionTitle: "Parrillas",
+  //   food: [
+  //     {
+  //       name: "Parrilla mixta",
+  //       description:
+  //         "Salsa roja de la casa, Pepperoni, tocineta, salchichon y jamon ahumado",
+  //       price: 13,
+  //     },
+  //   ],
+  // },
   // {
   //   sectionTitle: "Hot dogs",
   //   food: [
