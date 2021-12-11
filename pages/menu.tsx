@@ -10,21 +10,14 @@ const menuData = [
     food: [
       {
         name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
+        description: "Servicio de 5 tequeños y salsa de la casa",
+        price: 3,
       },
       {
-        name: "tequeños",
+        name: "Papas especiales",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
+          "Papas fritas importadas (300gr) con queso cheddar y tocineta",
+        price: 2.5,
       },
     ],
   },
@@ -32,71 +25,82 @@ const menuData = [
     sectionTitle: "Hamburguesas",
     food: [
       {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
+        name: "Clasica",
+        description: "Carne de la casa, pan wooper, queso Cebu, papas rayadas",
+        price: 1.75,
       },
       {
-        name: "tequeños",
+        name: "Especial de carne",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
+          "Doble carne de la casa (160gr), pan wooper, doble queso cebu, tocineta, jamon, queso amarillo, servicio de papas importadas",
+        price: 6,
+      },
+      {
+        name: "Especial de pollo",
+        description:
+          "Pollo de la casa, pan wooper, doble queso cebu, tocineta, jamon, queso amarillo, servicio de papas importadas",
+        price: 7,
+      },
+      {
+        name: "Pollo crispy",
+        description:
+          "Pollo crispy de la casa, pan wooper, queso cebu, tocineta, jamon, doble queso amarillo, servicio de papas importadas",
+        price: 6.5,
       },
     ],
   },
-  {
-    sectionTitle: "Hot dogs",
-    food: [
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-    ],
-  },
-  {
-    sectionTitle: "Ensaladas",
-    food: [
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-      {
-        name: "tequeños",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-        price: 18,
-      },
-    ],
-  },
+  // {
+  //   sectionTitle: "Hot dogs",
+  //   food: [
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //   ],
+  // },
+  // {
+  //   sectionTitle: "Ensaladas",
+  //   food: [
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //     {
+  //       name: "tequeños",
+  //       description:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
+  //       price: 18,
+  //     },
+  //   ],
+  // },
 ];
 
 const Menu: NextPage = () => {

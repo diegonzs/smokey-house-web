@@ -23,7 +23,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({
               <h3 className="text-base text-primary font-bold uppercase">
                 {elem.name}
               </h3>
-              <p className="text-base text-primary font-bold">{elem.price}</p>
+              <p className="text-base text-primary font-bold">$ {elem.price}</p>
             </div>
             <p className="mb-5 text-white text-sm">{elem.description}</p>
             <div className="border border-[#EFE3B5] mb-0.5"></div>
