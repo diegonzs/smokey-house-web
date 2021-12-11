@@ -26,7 +26,8 @@ const menuData = [
     food: [
       {
         name: "Clasica",
-        description: "Carne de la casa, pan wooper, queso Cebu, papas rayadas",
+        description:
+          "Carne de la casa, pan de hamburguesa, queso Cebu, papas rayadas",
         price: 1.75,
       },
       {
@@ -50,6 +51,22 @@ const menuData = [
     ],
   },
   {
+    sectionTitle: "Perros",
+    food: [
+      {
+        name: "Perros de la casa",
+        description:
+          "Salchica polacas, pan de perro caliente, queso cheddar, tocineta, pepinillos, papas importadas",
+        price: 5,
+      },
+      // {
+      //   name: "Salchiqueso",
+      //   description: "",
+      //   price: 6,
+      // },
+    ],
+  },
+  {
     sectionTitle: "Pizzas",
     food: [
       {
@@ -70,17 +87,29 @@ const menuData = [
       },
     ],
   },
-  // {
-  //   sectionTitle: "Parrillas",
-  //   food: [
-  //     {
-  //       name: "Parrilla mixta",
-  //       description:
-  //         "Salsa roja de la casa, Pepperoni, tocineta, salchichon y jamon ahumado",
-  //       price: 13,
-  //     },
-  //   ],
-  // },
+  {
+    sectionTitle: "Parrillas",
+    food: [
+      {
+        name: "Parrilla mixta",
+        description:
+          "Parrilla mixta para dos personas con pollo asado, Punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso",
+        price: 6,
+      },
+      {
+        name: "Parrilla de carne",
+        description:
+          "Parrilla de carne para una person con punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
+        price: 5,
+      },
+      {
+        name: "Parrilla de pollo",
+        description:
+          "Parrilla de pollo para una person con pollo asado, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
+        price: 5,
+      },
+    ],
+  },
   // {
   //   sectionTitle: "Hot dogs",
   //   food: [
