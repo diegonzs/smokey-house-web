@@ -12,7 +12,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({
   food,
 }) => {
   return (
-    <section className="max-w-xs mb-10">
+    <section className="max-w-xs w-full">
       <h2 className="text-[32px] text-primary font-bold mb-6 uppercase">
         {sectionTitle}
       </h2>

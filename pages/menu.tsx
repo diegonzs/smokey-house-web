@@ -37,16 +37,22 @@ const menuData = [
         price: 6,
       },
       {
+        name: "Pollo crispy",
+        description:
+          "Pollo crispy de la casa, pan wooper, queso cebu, tocineta, jamon, doble queso amarillo, servicio de papas importadas",
+        price: 6.5,
+      },
+      {
         name: "Especial de pollo",
         description:
           "Pollo de la casa, pan wooper, doble queso cebu, tocineta, jamon, queso amarillo, servicio de papas importadas",
         price: 7,
       },
       {
-        name: "Pollo crispy",
+        name: "Hamburguesa de la casa",
         description:
-          "Pollo crispy de la casa, pan wooper, queso cebu, tocineta, jamon, doble queso amarillo, servicio de papas importadas",
-        price: 6.5,
+          "Punta trasera, pan wooper, full queso cebu, tocineta, jamon ahumado, doble queso amarillo, servicio de papas importadas",
+        price: 7,
       },
     ],
   },
@@ -59,11 +65,12 @@ const menuData = [
           "Salchica polacas, pan de perro caliente, queso cheddar, tocineta, pepinillos, papas importadas",
         price: 5,
       },
-      // {
-      //   name: "Salchiqueso",
-      //   description: "",
-      //   price: 6,
-      // },
+      {
+        name: "Salchiqueso",
+        description:
+          "Salchicha polaca, queso cebu, pepinillos, pan de perro caliente",
+        price: 3,
+      },
     ],
   },
   {
@@ -107,6 +114,31 @@ const menuData = [
         description:
           "Parrilla de pollo para una person con pollo asado, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
         price: 5,
+      },
+    ],
+  },
+  {
+    sectionTitle: "Bebidas",
+    food: [
+      {
+        name: "Cocacola 1.5L",
+        description: "",
+        price: 1.5,
+      },
+      {
+        name: "Cocacola 350ml",
+        description: "",
+        price: 0.75,
+      },
+      {
+        name: "Cerveza",
+        description: "",
+        price: 1,
+      },
+      {
+        name: "Agua mineral",
+        description: "",
+        price: 0.6,
       },
     ],
   },
@@ -178,7 +210,7 @@ const Menu: NextPage = () => {
         <div className="mb-14">
           <Title isSmall>Nuestro menú</Title>
         </div>
-        <div className="flex flex-wrap max-w-3xl w-full justify-center gap-20">
+        <div className="flex flex-wrap max-w-3xl w-full justify-center gap-20 mb-10">
           {menuData.map((elem, index) => (
             <MenuSection key={index} {...elem} />
           ))}
