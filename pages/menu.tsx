@@ -9,7 +9,7 @@ const menuData = [
     sectionTitle: "Entradas",
     food: [
       {
-        name: "tequeños",
+        name: "Tequeños",
         description: "Servicio de 5 tequeños y salsa de la casa",
         price: 3,
       },
@@ -25,50 +25,50 @@ const menuData = [
     sectionTitle: "Hamburguesas",
     food: [
       {
-        name: "Clasica",
+        name: "Smokey Clásica",
         description:
-          "Carne de la casa, pan de hamburguesa, queso Cebu, papas rayadas",
+          "Carne de la casa, pan de hamburguesa, queso cebú y papas rayadas",
         price: 1.75,
       },
       {
-        name: "Especial de carne",
+        name: "Smokey Especial de Carne",
         description:
-          "Doble carne de la casa (160gr), pan wooper, doble queso cebu, tocineta, jamon, queso amarillo, servicio de papas importadas",
+          "Doble carne de la casa (160gr), pan wooper, doble queso cebú, tocineta, jamón, queso amarillo y servicio de papas importadas",
         price: 6,
       },
       {
-        name: "Pollo crispy",
+        name: "Smokey Crispy",
         description:
-          "Pollo crispy de la casa, pan wooper, queso cebu, tocineta, jamon, doble queso amarillo, servicio de papas importadas",
+          "Pollo crispy de la casa, pan wooper, queso cebú, tocineta, jamón, doble queso amarillo y servicio de papas importadas",
         price: 6.5,
       },
       {
-        name: "Especial de pollo",
+        name: "Smokey Especial de Pollo",
         description:
-          "Pollo de la casa, pan wooper, doble queso cebu, tocineta, jamon, queso amarillo, servicio de papas importadas",
+          "Pollo de la casa, pan wooper, doble queso cebú, tocineta, jamón, queso amarillo y servicio de papas importadas",
         price: 7,
       },
       {
-        name: "Hamburguesa de la casa",
+        name: "Smokey Burger de la House",
         description:
-          "Punta trasera, pan wooper, full queso cebu, tocineta, jamon ahumado, doble queso amarillo, servicio de papas importadas",
+          "Punta trasera, pan wooper, full queso cebú, tocineta, jamón ahumado, doble queso amarillo y servicio de papas importadas",
         price: 7,
       },
     ],
   },
   {
-    sectionTitle: "Perros",
+    sectionTitle: "Hot Dogs",
     food: [
       {
-        name: "Perros de la casa",
+        name: "Hot Dog de la House",
         description:
-          "Salchica polacas, pan de perro caliente, queso cheddar, tocineta, pepinillos, papas importadas",
+          "Salchica polacas, pan de perro caliente, queso cheddar, tocineta, pepinillos y papas importadas",
         price: 5,
       },
       {
-        name: "Salchiqueso",
+        name: "Hot Dog Clásico",
         description:
-          "Salchicha polaca, queso cebu, pepinillos, pan de perro caliente",
+          "Salchicha polaca, queso cebú, pepinillos, pan de perro caliente",
         price: 3,
       },
     ],
@@ -77,9 +77,9 @@ const menuData = [
     sectionTitle: "Pizzas",
     food: [
       {
-        name: "Pizza de la casa",
+        name: "Smokey Pizza de la House",
         description:
-          "Salsa roja de la casa, Pepperoni, tocineta, salchichon y jamon ahumado",
+          "Salsa roja de la casa, Pepperoni, tocineta, salchichon y jamón ahumado",
         price: 13,
       },
     ],
@@ -89,7 +89,7 @@ const menuData = [
     food: [
       {
         name: "Combo House",
-        description: "5 hamburguesas mas balde de 10 cervezas",
+        description: "5 hamburguesas más balde de 10 cervezas",
         price: 17.5,
       },
     ],
@@ -100,7 +100,7 @@ const menuData = [
       {
         name: "Parrilla mixta",
         description:
-          "Parrilla mixta para dos personas con pollo asado, Punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso",
+          "Parrilla mixta para dos personas con pollo asado, punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw y queso",
         price: 6,
       },
       {
@@ -131,69 +131,12 @@ const menuData = [
         price: 0.75,
       },
       {
-        name: "Cerveza",
-        description: "",
-        price: 1,
-      },
-      {
         name: "Agua mineral",
         description: "",
         price: 0.6,
       },
     ],
   },
-  // {
-  //   sectionTitle: "Hot dogs",
-  //   food: [
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //   ],
-  // },
-  // {
-  //   sectionTitle: "Ensaladas",
-  //   food: [
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //     {
-  //       name: "tequeños",
-  //       description:
-  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur.",
-  //       price: 18,
-  //     },
-  //   ],
-  // },
 ];
 
 const Menu: NextPage = () => {
