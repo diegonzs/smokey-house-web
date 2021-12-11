@@ -64,9 +64,9 @@ const menuData = [
     sectionTitle: "Combos",
     food: [
       {
-        name: "Combo cervecero",
+        name: "Combo House",
         description: "5 hamburguesas mas balde de 10 cervezas",
-        price: 13,
+        price: 17.5,
       },
     ],
   },
