@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { Head } from "next/document";
+import Head from "next/head";
 import Image from "next/image";
 import { MainContainer } from "../components/main-container/main-container";
 import { MenuSection } from "../components/menu/menu-section";
