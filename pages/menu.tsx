@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import { Head } from "next/document";
 import Image from "next/image";
 import { MainContainer } from "../components/main-container/main-container";
 import { MenuSection } from "../components/menu/menu-section";
@@ -62,7 +63,7 @@ const menuData = [
       {
         name: "Hot Dog de la House",
         description:
-          "Salchica polacas, pan de perro caliente, queso cheddar, tocineta, pepinillos y papas importadas",
+          "Salchica polaca, pan de perro caliente, queso cheddar, tocineta, pepinillos y papas importadas",
         price: 5,
       },
       {
@@ -79,7 +80,7 @@ const menuData = [
       {
         name: "Smokey Pizza de la House",
         description:
-          "Salsa roja de la casa, Pepperoni, tocineta, salchichon y jamón ahumado",
+          "Salsa roja de la casa, Pepperoni, tocineta, salchichón y jamón ahumado",
         price: 13,
       },
     ],
@@ -106,7 +107,7 @@ const menuData = [
       {
         name: "Parrilla de carne",
         description:
-          "Parrilla de carne para una person con punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
+          "Parrilla de carne para una persona con punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
         price: 5,
       },
       {
@@ -142,6 +143,9 @@ const menuData = [
 const Menu: NextPage = () => {
   return (
     <MainContainer>
+      <Head>
+        <title>Smokey House</title>
+      </Head>
       <div className="bg-[#040404] w-full flex items-center flex-col pt-32 px-5">
         <Image
           src="/image/phrase-menu.png"
