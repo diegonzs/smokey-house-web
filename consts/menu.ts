@@ -26,43 +26,43 @@ export const menuData = [
       {
         name: "Smokey Clásica",
         description:
-          "Carne de la casa, pan de hamburguesa, queso cebú y papas rayadas",
+          "Carne de la casa, pan de hamburguesa, queso cebú y papas ralladas",
         price: 1.5,
       },
       {
         name: "Smokey Especial de Carne",
         description:
-          "Doble carne de la casa (160gr), pan wooper, doble queso cebú, tocineta, jamón, queso amarillo y servicio de papas importadas",
+          "Doble carne de la casa (160gr), pan wooper, doble queso cebú, tocineta, jamón, queso amarillo y papas fritas",
         price: 6,
       },
       {
         name: "Smokey Especial de Pollo",
         description:
-          "Pollo de la casa, pan wooper, doble queso cebú, tocineta, jamón, queso amarillo y servicio de papas importadas",
+          "Pollo de la casa, pan wooper, doble queso cebú, tocineta, jamón, queso amarillo y papas fritas",
         price: 6,
       },
       {
         name: "Smokey Crispy",
         description:
-          "Pollo crispy de la casa, pan wooper, queso cebú, tocineta, jamón, doble queso amarillo y servicio de papas importadas",
+          "Pollo crispy de la casa, pan wooper, queso cebú, tocineta, jamón, doble queso amarillo y papas fritas",
         price: 6.5,
       },
       {
         name: "Smokey Mixta",
         description:
-          "Pollo y carne de la casa, pan wooper, queso cebú, tocineta, jamón, queso amarillo y servicio de papas importadas",
+          "Pollo y carne de la casa, pan wooper, queso cebú, tocineta, jamón, queso amarillo y papas fritas",
         price: 6.5,
       },
       {
         name: "Smokey de la House",
         description:
-          "Punta trasera, pan wooper, full queso cebú, tocineta, jamón ahumado, doble queso amarillo y servicio de papas importadas",
+          "Punta trasera, pan wooper, full queso cebú, tocineta, jamón ahumado, doble queso amarillo y papas fritas",
         price: 7,
       },
       {
         name: "Smokey Pernil",
         description:
-          "Pernil de la casa, pan wooper, queso cebú, jamón, queso amarillo y servicio de papas importadas",
+          "Pernil de la casa, pan wooper, queso cebú, jamón, queso amarillo y papas fritas",
         price: 7,
       },
     ],
@@ -79,7 +79,7 @@ export const menuData = [
       {
         name: "Hot Dog de la House",
         description:
-          "Salchica polaca, pan de perro caliente, queso cheddar, tocineta, pepinillos y papas importadas",
+          "Salchica polaca, pan de perro caliente, queso cheddar, tocineta, pepinillos y papas fritas",
         price: 5,
       },
     ],
@@ -89,8 +89,7 @@ export const menuData = [
     food: [
       {
         name: "Pizza New York",
-        description:
-          "Pizza extra grande con salsa roja de la casa y queso",
+        description: "Pizza extra grande con salsa roja de la casa y queso",
         price: 5,
       },
       {
@@ -106,7 +105,7 @@ export const menuData = [
         price: 8,
       },
       {
-        name: "Smokey Pizza de la House",
+        name: "Pizza de la House",
         description:
           "Salsa roja de la casa, Pepperoni, tocineta, salchichón y jamón ahumado",
         price: 12,
@@ -117,7 +116,7 @@ export const menuData = [
     sectionTitle: "Parrillas",
     food: [
       {
-        name: "Parrilla mixta",
+        name: "Parrilla de la House",
         description:
           "Parrilla mixta para dos personas con pollo asado, punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw y queso",
         price: 6,
@@ -125,13 +124,13 @@ export const menuData = [
       {
         name: "Parrilla de carne",
         description:
-          "Parrilla de carne para una persona con punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
+          "Parrilla de carne para una persona con punta trasera, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y papas fritas",
         price: 5,
       },
       {
         name: "Parrilla de pollo",
         description:
-          "Parrilla de pollo para una person con pollo asado, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y servico de papas especiales",
+          "Parrilla de pollo para una persona con pollo asado, chorizo ahumado, servicio de arepas, ensalada coleslaw, queso y papas fritas",
         price: 5,
       },
     ],
@@ -141,12 +140,14 @@ export const menuData = [
     food: [
       {
         name: "Burgers Dúo",
-        description: "2 Smokey Especial de carne o pollo con papas + 2 refrescos 350ml",
+        description:
+          "2 Smokey Especial de carne o pollo con papas fritas + 2 refrescos 350ml",
         price: 12,
       },
       {
         name: "Burgers con panas",
-        description: "4 Smokey Especial de carne o pollo con papas + 1 refresco 1.5lts + 12 mini tequeños con salsa",
+        description:
+          "4 Smokey Especial de carne o pollo con papas fritas + 1 refresco 1.5lts + 12 mini tequeños con salsa",
         price: 25,
       },
       {
@@ -156,12 +157,14 @@ export const menuData = [
       },
       {
         name: "Papas cervecero",
-        description: "1 servicio de papas especiales + 1 balde de 12 cervezas",
+        description:
+          "1 servicio de papas fritas especiales + 1 balde de 12 cervezas",
         price: 12.5,
       },
       {
-        name: "Una familiar",
-        description: "1 Pizza familiar (2 ingredientes, Double Taste) + refresco 1.5lts + 6 mini tequeños con salsa",
+        name: "Pizza familiar",
+        description:
+          "1 Pizza familiar (2 ingredientes, Double Taste) + refresco 1.5lts + 6 mini tequeños con salsa",
         price: 10,
       },
       {
@@ -171,12 +174,14 @@ export const menuData = [
       },
       {
         name: "2x Double Taste",
-        description: "2 Pizzas familiares (2 ingredientes, Double Taste) + refresco 1.5lts + 12 mini tequeños y salsa",
+        description:
+          "2 Pizzas familiares (2 ingredientes, Double Taste) + refresco 1.5lts + 12 mini tequeños y salsa",
         price: 18,
       },
       {
         name: "3x Double Taste",
-        description: "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 12 mini tequeños y salsa",
+        description:
+          "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 12 mini tequeños y salsa",
         price: 25,
       },
       {
@@ -187,7 +192,18 @@ export const menuData = [
       {
         name: "Aguita de sapo",
         description: "2 arepitas de pernil + refresco 350ml",
-        price: 3.50,
+        price: 3.5,
+      },
+    ],
+  },
+  {
+    sectionTitle: "Menú Ejecutivo",
+    food: [
+      {
+        name: "Pabellón",
+        description:
+          "Carne desmechada, arroz, caraotas, tajadas fritas, con un refresco 350ml",
+        price: 3.5,
       },
     ],
   },
