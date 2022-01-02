@@ -13,7 +13,7 @@ const Menu: NextPage = () => {
       <Head>
         <title>Smokey House</title>
         <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=optional"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@700&display=swap"
           rel="stylesheet"
         />
       </Head>
