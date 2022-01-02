@@ -49,7 +49,7 @@ const Menu: NextPage = () => {
         </div>
       </div>
       <div className="fixed bottom-6 right-8 w-16 h-16 cursor-pointer">
-        <a href="https://wa.me/584124687370" target="_blank">
+        <a href="https://wa.me/584124687370" target="_blank" rel="noreferrer">
           <img src="/image/ws.png" alt="whatsapp" />
         </a>
       </div>
