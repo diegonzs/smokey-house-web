@@ -17,7 +17,7 @@ export const Title: React.FC<TitleProps> = ({
         isSmall ? "text-5xl" : "text-7xl",
         isLeft ? "text-left" : "text-center"
       )}
-      style={{ lineHeight: "130%" }}
+      style={{ lineHeight: "130%", fontFamily: "Oswald" }}
     >
       {children}
     </h1>

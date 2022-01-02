@@ -1,10 +1,10 @@
-import Link from "next/link";
+// import Link from "next/link";
 
 export const Header = () => {
   return (
     <header className="w-full bg-black h-20 z-20 flex justify-center">
       <div className="max-w-[1680px] flex w-full justify-center">
-        <img src="/brand/logo.svg" alt="React Logo" className="ml-5 mt-5" />
+        <img src="/brand/logo.svg" alt="Logo" className="px-2 py-2" />
         {/* <div
           className="flex justify-center w-full items-center"
           style={{ gridColumn: "1 / -1", justifySelf: "center" }}
