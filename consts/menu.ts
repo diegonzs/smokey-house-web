@@ -95,23 +95,23 @@ export const menuData = [
       {
         name: "Pizza New York",
         description: "Pizza extra grande con salsa napoli y queso",
-        price: 5,
+        price: 6,
       },
       {
         name: "Pizza One Taste",
         description: "Pizza familiar con salsa napoli, y un ingrediente",
-        price: 6.5,
+        price: 7.5,
       },
       {
         name: "Pizza Double Taste",
         description: "Pizza familiar con salsa napoli, y dos ingredientes",
-        price: 8,
+        price: 9,
       },
       {
         name: "Pizza de la House",
         description:
           "Salsa napoli, Pepperoni, tocineta, salchichón y jamón ahumado",
-        price: 12,
+        price: 13,
       },
     ],
   },
@@ -168,24 +168,24 @@ export const menuData = [
         name: "Pizza familiar",
         description:
           "1 Pizza familiar (2 ingredientes, Double Taste) + refresco 1.5lts + 6 mini tequeños con salsa",
-        price: 10,
+        price: 11,
       },
       {
         name: "2x One Taste",
         description: "2 Pizzas Familiares (1 ingrediente, One Taste)",
-        price: 12,
+        price: 14,
       },
       {
         name: "2x Double Taste",
         description:
           "2 Pizzas familiares (2 ingredientes, Double Taste) + refresco 1.5lts + 12 mini tequeños y salsa",
-        price: 18,
+        price: 20,
       },
       {
         name: "3x Double Taste",
         description:
           "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 12 mini tequeños y salsa",
-        price: 25,
+        price: 30,
       },
       {
         name: "Parrilla Dúo",
