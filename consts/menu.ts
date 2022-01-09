@@ -94,20 +94,17 @@ export const menuData = [
     food: [
       {
         name: "Pizza New York",
-        description:
-          "Pizza extra grande con salsa napoli y queso",
+        description: "Pizza extra grande con salsa napoli y queso",
         price: 5,
       },
       {
         name: "Pizza One Taste",
-        description:
-          "Pizza familiar con salsa napoli, y un ingrediente",
+        description: "Pizza familiar con salsa napoli, y un ingrediente",
         price: 6.5,
       },
       {
         name: "Pizza Double Taste",
-        description:
-          "Pizza familiar con salsa napoli, y dos ingredientes",
+        description: "Pizza familiar con salsa napoli, y dos ingredientes",
         price: 8,
       },
       {
@@ -124,7 +121,7 @@ export const menuData = [
       {
         name: "Parrilla de la House",
         description:
-          "Parrilla mixta para dos personas con pollo asado, punta trasera, chorizo ahumado, pistolita de cerdo, servicio de arepitas fritas, ensalada coleslaw y queso",
+          "Parrilla mixta para dos personas con pollo asado, punta trasera, chorizo ahumado, servicio de arepitas fritas, ensalada coleslaw y queso",
         price: 7,
       },
       {
@@ -146,27 +143,31 @@ export const menuData = [
     food: [
       {
         name: "Burgers Dúo",
-        description: "2 Smokey especial de carne o pollo con papas fritas + 2 refrescos 350ml",
-        price: 12,
+        description:
+          "2 Smokey especial de carne o pollo con papas fritas + 2 refrescos 350ml",
+        price: 14,
       },
       {
         name: "Burgers con panas",
-        description: "4 Smokey especial de carne o pollo con papas fritas + 1 refresco 1.5lts + 12 mini tequeños con salsa",
-        price: 25,
+        description:
+          "4 Smokey especial de carne o pollo con papas fritas + 1 refresco 1.5lts + 12 mini tequeños con salsa",
+        price: 28,
       },
       {
         name: "Burgers cervecero",
-        description: "4 Hamburguesas juniors + 1 balde de 12 cervezas",
+        description: "4 Hamburguesas junior + 1 balde de 12 cervezas",
         price: 15,
       },
       {
         name: "Papas cervecero",
-        description: "1 servicio de papas fritas especiales + 1 balde de 12 cervezas",
+        description:
+          "1 servicio de papas fritas especiales + 1 balde de 12 cervezas",
         price: 12.5,
       },
       {
         name: "Pizza familiar",
-        description: "1 Pizza familiar (2 ingredientes, Double Taste) + refresco 1.5lts + 6 mini tequeños con salsa",
+        description:
+          "1 Pizza familiar (2 ingredientes, Double Taste) + refresco 1.5lts + 6 mini tequeños con salsa",
         price: 10,
       },
       {
@@ -176,23 +177,26 @@ export const menuData = [
       },
       {
         name: "2x Double Taste",
-        description: "2 Pizzas familiares (2 ingredientes, Double Taste) + refresco 1.5lts + 12 mini tequeños y salsa",
+        description:
+          "2 Pizzas familiares (2 ingredientes, Double Taste) + refresco 1.5lts + 12 mini tequeños y salsa",
         price: 18,
       },
       {
         name: "3x Double Taste",
-        description: "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 12 mini tequeños y salsa",
+        description:
+          "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 12 mini tequeños y salsa",
         price: 25,
       },
       {
         name: "Parrilla Dúo",
-        description: "1 Parrilla mixta + 2 Hamburguesas juniors + 2 refrescos 350ml",
-        price: 9,
+        description:
+          "1 Parrilla mixta + 2 Hamburguesas junior + 2 refrescos 350ml",
+        price: 10,
       },
       {
         name: "Aguita de sapo",
         description: "2 arepitas de pernil + refresco 350ml",
-        price: 3.50,
+        price: 3.5,
       },
     ],
   },
@@ -201,7 +205,8 @@ export const menuData = [
     food: [
       {
         name: "Pabellón",
-        description: "Carne desmechada, arroz, caraotas, tajadas fritas, con un refresco 350ml",
+        description:
+          "Carne desmechada, arroz, caraotas, tajadas fritas, con un refresco 350ml",
         price: 3.5,
       },
     ],
@@ -223,6 +228,21 @@ export const menuData = [
         name: "Agua mineral",
         description: "",
         price: 0.6,
+      },
+      {
+        name: "Cerveza nacional",
+        description: "",
+        price: 1,
+      },
+      {
+        name: "Piña colada",
+        description: "",
+        price: 1.75,
+      },
+      {
+        name: "Mojito",
+        description: "",
+        price: 1,
       },
     ],
   },
