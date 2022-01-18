@@ -184,7 +184,7 @@ export const menuData = [
       {
         name: "3x Double Taste",
         description:
-          "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 12 mini tequeños y salsa",
+          "3 Pizzas familiares (2 ingredientes, Double Taste) + 2 refrescos 1.5lts + 18 mini tequeños y salsa",
         price: 30,
       },
       {
@@ -204,9 +204,40 @@ export const menuData = [
     sectionTitle: "Menú Ejecutivo",
     food: [
       {
+        name: "Pollo Guisado",
+        description:
+          "Pollo guisado, arroz, tajadas o yuca, ensalada, con bebida",
+        price: 3.5,
+      },
+      {
+        name: "Lomo con papas",
+        description: "Lomo, arroz, tajadas o yuca, ensalada, con bebida",
+        price: 3.5,
+      },
+      {
         name: "Pabellón",
         description:
-          "Carne desmechada, arroz, caraotas, tajadas fritas, con un refresco 350ml",
+          "Carne desmechada, arroz, caraotas, tajadas fritas, con bebida",
+        price: 3.5,
+      },
+      {
+        name: "Albóndigas en salsa",
+        description: "Albóndigas, arroz, tajadas, ensalada, con bebida",
+        price: 3.5,
+      },
+      {
+        name: "Pasta con carne",
+        description: "Pasta y carne, con bebida",
+        price: 3.5,
+      },
+      {
+        name: "Arroz chino",
+        description: "Arroz chino, pan al ajillo, con bebida",
+        price: 3.5,
+      },
+      {
+        name: "Chop Suey de pollo",
+        description: "Chop Suey de pollo, arroz especial, con bebida",
         price: 3.5,
       },
     ],
