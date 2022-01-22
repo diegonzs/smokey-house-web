@@ -113,6 +113,12 @@ export const menuData = [
           "Salsa napoli, Pepperoni, tocineta, salchichón y jamón ahumado",
         price: 13,
       },
+      {
+        name: "Pizza BBQ",
+        description:
+          "Pizza familiar con salsa BBQ, tocineta, pollo y champiñones",
+        price: 13,
+      },
     ],
   },
   {
